@@ -85,6 +85,11 @@ export default defineConfig({
           autogenerate: { directory: 'guides' },
         },
         {
+          label: 'Blog',
+          translations: { de: 'Anleitungen', es: 'Guías', ja: 'ガイド', fr: 'Guides' },
+          autogenerate: { directory: 'blog' },
+        },
+        {
           label: 'Reference',
           translations: {
             de: 'Referenz',
